@@ -42,13 +42,11 @@
 		<p>
 
 		</p>
-		<p>
-		<!--あとで選択個数制限+1つ以上は入力させる制御入れる-->	
+		<p>	
 			趣味（3つまで）：
 		</p>
 		<!--チェックボックスの value の値は$_POST[hobby][0], $_POST[hobby][1],…に格納される。hobbyはname属性部分-->
-		<!--本当は上記のaccount配列に追加していきたいけど難しそう-->
-		<!--一度別配列に入れてあとからaccount配列に追加する？-->
+		<!--一度別配列に格納し、別途account配列に追加する-->
 		<input type="checkbox" name="hobby[]" value="読書">読書
 		<input type="checkbox" name="hobby[]" value="スポーツ">スポーツ
 		<input type="checkbox" name="hobby[]" value="映画">映画
