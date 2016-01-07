@@ -1,0 +1,41 @@
+body{
+	margin-top: 150px;
+}
+
+h2{
+	text-align: center;
+}
+
+div{
+	text-align: center;
+	
+}
+#back_to_top{
+	background: #ff0000;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #111;
+    width: 100px;
+    padding: 10px 0;
+	color: white;
+	font-weight: bold;
+	font-size: 1.0em;
+}
+
+#go_to_result{
+	margin-top: 10px;
+	margin-left: 10px;
+	background: #ffa500;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #111;
+    width: 100px;
+    padding: 10px 0;
+	color: white;
+	font-weight: bold;
+	font-size: 1.0em;
+}
