@@ -62,7 +62,6 @@
 		</p>
 		<textarea type="text" name="account[comment]" cols="40" rows="7" placeholder="コメント等自由にお書きください"></textarea>
 		<div>
-			<!--<button id="button">回答完了</button>-->
 			<input type="submit" name="Submit" value="回答完了">
 		</div>
 </body>
