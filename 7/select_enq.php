@@ -36,7 +36,6 @@ if($flag_count_record==false){
 	//SQL文で取得した内容を確認
 		//$record .= '<p>'.$count_record_result['count(*)'].'</p>';
 		$record = $count_record_result['count(*)'];
-	//$men =　 
 	}
 }
 
@@ -65,8 +64,6 @@ if($flag_count_female==false){
 		$female = $count_female_result["sum(case when sex='女性' then 1 else 0 end)"];
 	}
 }
-
-//$male_percentage = $male/$record * 100
 
 //テキスト入力欄で入力した文字列の出現回数を数える
 //出現回数に応じてフォントサイズ変更（タグクラウドの様に表示させる）
