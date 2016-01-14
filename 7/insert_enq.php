@@ -10,16 +10,12 @@
 $pdo = new PDO('mysql:dbname=an;host=localhost','root','');
 //var_dump($pdo);
 
-//
-//  //2. DB文字コードを指定(固定)
+//2. DB文字コードを指定(固定)
 $stmt = $pdo->query('SET NAMES utf8');
 //var_dump($stmt);
 
 
-//
-//
-//
-//  //３．データ登録SQL作成
+//３．データ登録SQL作成
 //$stmt = $pdo->prepare("INSERT INTO **** (id, name, email, naiyou, indate )VALUES(NULL, :a1, :a2, :a3, sysdate())");
 $stmt = $pdo->prepare("INSERT INTO an_table (id, sex, age, kotoba, indate )VALUES(NULL, :a1, :a2, :a3, sysdate())");
 //var_dump($stmt);
@@ -57,8 +53,6 @@ $stmt = $pdo->prepare("INSERT INTO an_table (id, sex, age, kotoba, indate )VALUE
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>データが登録されました</title>
-	<!--<link rel="stylesheet" href="css/range.css">
-<link href="css/bootstrap.min.css" rel="stylesheet">-->
 	<style>
 		div {
 			padding: 10px;
