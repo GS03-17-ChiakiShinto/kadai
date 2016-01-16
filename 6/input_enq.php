@@ -42,7 +42,7 @@
 		<p>
 
 		</p>
-		<p>	
+		<p>
 			趣味（3つまで）：
 		</p>
 		<!--チェックボックスの value の値は$_POST[hobby][0], $_POST[hobby][1],…に格納される。hobbyはname属性部分-->
