@@ -21,9 +21,9 @@ $stmt = $pdo->prepare("INSERT INTO an_table (id, sex, age, kotoba, indate )VALUE
 //var_dump($stmt);
 
 
-////svar_dump($stmt);
-//  //bindValueに入れることでSQLインジェクションを防ぐ
-//　//:a1に$nameを渡す
+//svar_dump($stmt);
+//bindValueに入れることでSQLインジェクションを防ぐ
+//:a1に$nameを渡す
   $stmt->bindValue(':a1', $account['sex']);
   $stmt->bindValue(':a2', $account['age']);
   $stmt->bindValue(':a3',$account['kotoba']);
