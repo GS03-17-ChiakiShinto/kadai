@@ -1,0 +1,18 @@
+div{
+	width: 960px;
+}
+div#resent_answer h2{
+	width: 300px;
+}
+div#male_to_female_ratio{
+	width: 960px;
+	margin: 0 auto; 
+}
+
+div#male_to_female_ratio p{
+	padding-left: 600px;
+}
+
+div#words h2{
+	width: 500px;
+}
