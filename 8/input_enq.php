@@ -50,7 +50,7 @@
 					</p>
 					<br>
 					<p>
-	<h4>好きな言語、興味があることなど</h4>
+						<h4>好きな言語、興味があることなど</h4>
 					</p>
 					<textarea type="text" name="account[kotoba]" cols="10" rows="2" placeholder=""></textarea>
 					<div id="submit">
