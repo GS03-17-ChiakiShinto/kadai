@@ -1,0 +1,31 @@
+body{	
+	background-image: url(../img/back.gif);
+	background-repeat: repeat-x;
+	background-color: #FFFFFF;
+}
+
+/*画像に不要な線が出るため、背景色を指定して無理やり隠す*/
+h2{
+	margin-top: 90px;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+/*ボタンを中央寄せにするためdivタグにtext-align設定*/
+div{
+	text-align: center;
+	
+}
+div input[type="button"]{
+	background: #ffa500;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #111;
+    width: 100px;
+    padding: 10px 0;
+	color: white;
+	font-weight: bold;
+	font-size: 1.0em;
+}
