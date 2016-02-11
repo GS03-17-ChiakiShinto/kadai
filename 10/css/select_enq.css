@@ -1,0 +1,27 @@
+body{
+	margin: 0 auto;
+}
+
+/*div{
+	width: 1024px;
+}*/
+
+canvas#pieArea{
+	margin-top: 40px;
+}
+
+div#resent_answer h2{
+	width: 300px;
+}
+div#ratio{
+	width: 10240px;
+	margin: 0 auto; 
+}
+
+div#ratio p{
+	padding-left: 600px;
+}
+
+div#words h2{
+	width: 500px;
+}

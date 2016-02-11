@@ -1,0 +1,18 @@
+body{
+	margin: 0 auto;
+}
+
+table{
+	border-collapse: collapse;
+	width: 700px;
+	margin: 0 auto;
+}
+
+table th{
+	color: white;
+	background-color: orangered;
+}
+
+table td{
+	text-align: center;
+}
